@@ -1,6 +1,7 @@
 FROM openjdk:17
 
-COPY target/final-project.jar /usr/app/
+# Copy the correct jar and rename it inside the container
+COPY target/final-project.jar /usr/app/final-project.jar
 
 WORKDIR /usr/app/
 
