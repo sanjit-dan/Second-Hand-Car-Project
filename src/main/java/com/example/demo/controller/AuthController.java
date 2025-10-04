@@ -83,4 +83,8 @@ public class AuthController {
         return  new ResponseEntity<>(token,HttpStatus.OK);
 
     }
+     @GetMapping("/message")
+    public String getMessage(){
+        return "This is my final project- second hand car";
+    }
 }
