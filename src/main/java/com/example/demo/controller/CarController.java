@@ -15,6 +15,6 @@ public class CarController {
 
     @GetMapping("/message")
     public String getMessage(){
-        return "This is my final project";
+        return "This is my final project- second hand car";
     }
 }
