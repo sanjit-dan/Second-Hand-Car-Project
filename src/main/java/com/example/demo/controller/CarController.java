@@ -13,8 +13,5 @@ public class CarController {
         return "car add successfully";
     }
 
-    @GetMapping("/message")
-    public String getMessage(){
-        return "This is my final project- second hand car";
-    }
+   
 }
